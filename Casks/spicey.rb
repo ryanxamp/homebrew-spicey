@@ -7,7 +7,7 @@ cask "spicey" do
   desc "Minimal native SPICE viewer for Proxmox virt-viewer (.vv) files"
   homepage "https://github.com/ryanxamp/Spicey"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   depends_on formula: "spice-gtk"
 
   app "Spicey.app"
